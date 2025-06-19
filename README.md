@@ -21,6 +21,8 @@ A simple and fun dice rolling app built with **Flutter**. Tap the dice to roll a
 
 ## 📦 Getting Started
 
+Open Visual studio code
+
 To run this app locally:
 
 1. **Clone the repo**
