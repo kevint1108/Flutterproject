@@ -11,8 +11,8 @@ A simple and fun dice rolling app built with **Flutter**. Tap the dice to roll a
 - 🛠 Built with Flutter’s core widgets and Dart
 
 ## 🖼 Screenshots
-
-*(Add your screenshots here if available)*
+![Screenshot_20250320_021609](https://github.com/user-attachments/assets/22c7d283-789d-40d7-a1d1-e06582341113)
+![DiceAppD6](https://github.com/user-attachments/assets/b9734006-2d29-45ee-8f46-bde7ce319cf4)
 
 ## 🧰 Tech Stack
 
