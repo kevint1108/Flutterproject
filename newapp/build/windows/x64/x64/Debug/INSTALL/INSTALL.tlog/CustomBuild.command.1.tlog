@@ -1,0 +1,10 @@
+^C:\USERS\TERIK\ONEDRIVE\DOCUMENTS\CSE4500\FLUTTERPROJECTS\NEWAPP\BUILD\WINDOWS\X64\CMAKEFILES\4EEFC0D00C76EB87CFD8C34376BC3C2B\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\TERIK\ONEDRIVE\DOCUMENTS\CSE4500\FLUTTERPROJECTS\NEWAPP\BUILD\WINDOWS\X64\CMAKEFILES\4EEFC0D00C76EB87CFD8C34376BC3C2B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/terik/OneDrive/Documents/CSE4500/flutterprojects/newapp/windows -BC:/Users/terik/OneDrive/Documents/CSE4500/flutterprojects/newapp/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/terik/OneDrive/Documents/CSE4500/flutterprojects/newapp/build/windows/x64/newapp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
